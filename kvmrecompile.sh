@@ -1,4 +1,5 @@
 #!/bin/bash
+#change path to your own linux src path
 path="/home/kvm/src/linux-3.14.10"
 echo "1.rmmod kvm_intel kvm\n"
 rmmod kvm-intel
